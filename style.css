@@ -1,0 +1,25 @@
+h2 {
+  color: aquamarine;
+  font-size: 40pt;
+  background-color: brown;
+}
+
+.titulo-deportes {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo-politica {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(209, 207, 58);
+  margin: 10px;
+  display: inline-block;
+}
+
+#onebox {
+  display: block;
+}
