@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+}
+main {
+    height: 1400px;
+    padding-left: 20px ;
+}
+h1 {
+    margin-right: 0px; margin-bottom: 20px;background-color: azure;
+    display: block;
+    padding: 30px; background-color:whitesmoke;
+    text-align: center;
+}
+#logos{
+    width:200px; height:100px;
+    position: relative;
+    bottom: 120px;
+    left: 0px;
+}
+/*barra de navegación*/
+nav{
+    display: flex;
+    height: 100%;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.barra-menu{
+    font-size: 25px;
+    color:blue;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.menu{
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(60, 60, 60, 0.95);
+    text-align: center;
+    transition: all 0.5s;
