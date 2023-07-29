@@ -103,3 +103,12 @@ h2, h3 {
     height: 100%;
     margin-top: 80px;
 }
+
+ul li {
+    display: inline-block;
+    margin: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color:rgba(13, 13, 13, 0.774);
+    color: beige;
+}

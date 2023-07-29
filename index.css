@@ -25,11 +25,45 @@ nav{
     margin: 20px;
 }
 
-ul li {
-    display: inline-block;
-    margin: 15px;
-    padding: 20px;
+ul {
+    display: flex;
     box-sizing: border-box;
     background-color:rgba(13, 13, 13, 0.774);
     color: beige;
+}
+li{
+    position: relative;
+    margin: 15px;
+    padding: 20px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+.autors::after{
+    width: 100px;
+    height: 3px;
+    top: 100%;
+}
+
+li::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 3px;
+    top: 100%;
+    left: 0;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+    background-color:bisque;
+}
+
+li:hover{
+    color: aliceblue;
+}
+
+li:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
 }
