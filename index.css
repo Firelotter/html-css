@@ -34,36 +34,36 @@ ul {
 li{
     position: relative;
     margin: 15px;
-    padding: 20px;
+    text-align: center;
+    padding-bottom: 10px;
     display: block;
-    transition: 0.5s;
     cursor: pointer;
-    
-}
-.autors::after{
-    width: 100px;
-    height: 3px;
-    top: 100%;
+    transition: border 0.5s;
 }
 
-li::after{
-    position: absolute;
-    content: "";
-    width: 100px;
-    height: 3px;
-    top: 100%;
-    left: 0;
-    transition: transform 0.5s;
-    transform: scaleX(0);
-    transform-origin: right;
-    background-color:bisque;
+li:hover {
+  border-bottom: solid white 5px;
 }
 
+/*
 li:hover{
     color: aliceblue;
 }
 
-li:hover::after{
-    transform: scaleX(1);
-    transform-origin: left;
+li::after {
+  content: "";
+  width: 0;  
+  height: 0;
+  background-color: aqua;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin: 0 20px;
+  transition: all 0.5s;
+  
 }
+li:hover::after{
+  height: 5px;
+  width: 80%;
+}
+*/
