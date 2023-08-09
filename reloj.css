@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#reloj {
+  height: 500px;
+  width: 500px;
+}
+
+@keyframes rotacion {
+    100% {transform: rotateZ(360deg);}
+}
+.segundero {
+  width: 10px;
+  height: 250px;
+  background-color: rgb(211, 30, 30);
+  position: absolute;
+  top: 0px;
+  left: 250px;
+  transform-origin: 50% 100%;
+  animation-name: rotacion;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(60);
+}
+
+.minutero {
+  width: 15px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 250px;
+  transform-origin: 50% 100%;
+  animation-name: rotacion;
+  animation-duration: 3600s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(60);
+}
+
+.horario {
+  width: 18px;
+  height: 150px;
+  background-color: rgb(42, 39, 190);
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  transform-origin: 50% 100%;
+  animation-name: rotacion;
+  animation-duration: 43200s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
