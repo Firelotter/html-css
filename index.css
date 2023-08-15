@@ -45,7 +45,7 @@ li:hover {
   border-bottom: solid white 5px;
 }
 
-/*
+
 li:hover{
     color: aliceblue;
 }
@@ -66,4 +66,3 @@ li:hover::after{
   height: 5px;
   width: 80%;
 }
-*/
