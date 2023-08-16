@@ -7,7 +7,7 @@
 body{
     position: relative;
 }
-.headernav {
+header {
     height: 100px;
     padding: 20px;
     border-bottom-style: solid;
@@ -22,7 +22,7 @@ body{
     height: 50px; 
 }
 
-ul {
+.ulnav {
     color: black;
     display: flex;
 }
@@ -32,18 +32,13 @@ li{
 }
 
 aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border-bottom-style: solid;
-}
+    padding: 40px;
+    width: 20%;
+    border-right: 2px solid #000;
 
-ul {
-    color: black;
-    display: flex;
 }
-li{
-    margin: 15px;
-    display: block;
+aside {
+  height: 400px;
+
 }
+  
