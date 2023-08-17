@@ -8,6 +8,7 @@ body{
     position: relative;
 }
 header {
+    margin: o;
     height: 100px;
     padding: 20px;
     border-bottom-style: solid;
@@ -45,8 +46,29 @@ aside {
   }
 
 main {
-    height: 250px;
-    padding: 0px 25px 30px 164px;
+    width: 100%;
+    margin: -351px 150px 0;
+}
+
+.articleone {
+    padding: 10px;
+    width: 1200px;
+    height: 221px;
+    text-align:justify;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #c6b7b7;
+}
+
+p {
+    padding: 20px;
+}
+.articletwo {
+    padding: 10px;
+    width: 1200px;
+    height: 221px;
+    padding: 0 0 0 5px;
     text-align:justify;
     display: flex;
     justify-content: space-between;
