@@ -4,30 +4,36 @@
     box-sizing: border-box;
 }
 body {
-    position: relative;
+    position: flex;
+    flex-flow: row wrap;
     font-family:'Times New Roman', Times, serif;
 }
 header {
     height: 100px;
+    width: 100%;
+    padding: 20px;
+    border-bottom: solid black 3px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
 #logoid{
     width: 300px; 
     height: 100px;
-    float: left;
-    display: inline-block;
-    margin: 20px;
 }
 /*barra de navegación*/
-nav{
+.ulnav{
     height: 100%;
     padding-top: 20px;
     float: right;
     margin: 20px;
 }
 
-ul {
+.ulnav {
     display: flex;
-    box-sizing: border-box;
+    box-sizing: content-box;
     background-color:rgba(13, 13, 13, 0.774);
     color: beige;
 }
@@ -66,3 +72,10 @@ li:hover::after{
   height: 5px;
   width: 80%;
 }
+
+aside {
+    border-right: solid 3px black;
+    width: 20%;
+    display: inline-block;
+}
+
