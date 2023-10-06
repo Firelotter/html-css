@@ -1,0 +1,98 @@
+* {
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ededed;
+}
+header {
+  background-color:#fff159;
+  display: flex;
+  justify-content: center;
+}
+
+.cabecera {
+  max-width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+} 
+
+.logo {
+  height: 34px;
+  width: 134px;
+}
+
+.cajabuscador{
+  height: 40px;
+  width: 509px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.cajabuscador input {
+  height: 40px;
+  width: 463px;
+  background-color: transparent;
+  border: 0;
+}
+
+header nav ul {
+  width: 463px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-family: "Proxima Nova",-apple-system,Roboto,Arial,sans-serif,sans-serif;
+  font-size: 14px;
+  color: rgba(51,51,51,.6);
+}
+
+aside {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.barralateral {
+  max-width: 294px;
+  padding: 0 28px 0 10px;
+}
+
+.filtro{
+  margin-bottom: 30px;
+  padding-right: 16px;
+  color: #666;
+}
+
+aside nav ul {
+  color: #333;
+  font-size: 16px;
+
+}
+
+main {
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.products {
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  background-color: white;
+  width: 80%;
+
+}
+
+.imgproduct {
+  width: 160px;
+  height: 160px;
+}
+
+.product {
+
+}
+
